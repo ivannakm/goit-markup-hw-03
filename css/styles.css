@@ -26,12 +26,12 @@ img {
 }
 
 .container {
-width: 1158px; 
-margin: 0 auto;
-padding: 0 15px 0 15px;
-position: relative;
-display: flex; 
+  max-width: 1158px;
+  padding: 0 15px 0 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -311,19 +311,9 @@ padding: 100px 0 100px;
 .web_logo {
   color: #f4f4fd ;
   }
-  .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-  position: absolute;
-  margin-top: 24px;
-  margin-bottom: 16px; 
-  display: inline-block;
+  .logo_web {
+    display: inline-block;
+    margin-bottom: 16px;
   }
 
 a {text-decoration: none;}
