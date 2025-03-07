@@ -22,7 +22,7 @@ margin: 0;
 
 /* Global styles */
 img {
-  display: block
+  display: block;
 }
 
 .container {
@@ -30,6 +30,7 @@ width: 1158px;
 margin: 0 auto;
 padding: 0 15px 0 15px;
 position: relative;
+display: flex; 
 }
 .visually-hidden {
   position: absolute;
@@ -310,7 +311,7 @@ padding: 100px 0 100px;
 .web_logo {
   color: #f4f4fd ;
   }
-  .logo_web {
+  .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -322,7 +323,7 @@ padding: 100px 0 100px;
   position: absolute;
   margin-top: 24px;
   margin-bottom: 16px; 
-  display: inline;
+  display: inline-block;
   }
 
 a {text-decoration: none;}
