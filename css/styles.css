@@ -66,7 +66,11 @@ body {
 }
 .header_main {
   border-bottom: 1px solid #e7e9fc;
+}
+.container_header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -313,8 +317,15 @@ padding: 100px 0 100px;
   color: #f4f4fd ;
   }
   .logo_web {
-    display: inline-block;
-    margin-bottom: 16px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+display: inline-block;
+margin-bottom: 16px;
   }
 
 a {text-decoration: none;}
