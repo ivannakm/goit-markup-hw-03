@@ -12,6 +12,7 @@ margin: 0;
 }
 ul, ol {
 margin: 0;
+padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
 margin: 0;
@@ -25,7 +26,6 @@ img {
 }
 
 .container {
-display: flex;
 width: 1158px; 
 margin: 0 auto;
 padding: 0 15px 0 15px;
@@ -39,6 +39,7 @@ position: relative;
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
   white-space: nowrap;
   border: 0;
 }
@@ -72,11 +73,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header_link {
   color:  #2e2f42;
+  padding: 24px 0 24px;
 }
 .header_link:hover {
   color:  #404bbf;
